@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+   <bean id="ProductDao" class="neau.dao.impl.ProductDaoImpl"/>
+   <bean id="UserDao" class="neau.dao.impl.UserDaoImpl"/>
+   <bean id="CategoryDao" class="neau.dao.impl.CategoryDaoImpl"/>
+   <bean id="OrderDao" class="neau.dao.impl.OrderDaoImpl"/>
+   
+   <bean id="ProductService" class="neau.service.impl.ProductServiceImpl"/>
+   <bean id="UserService" class="neau.service.impl.UserServiceImpl"/>
+   <bean id="CategoryService" class="neau.service.impl.CategoryServiceImpl"/>
+   <bean id="OrderService" class="neau.service.impl.OrderServiceImpl"/>
+</beans>
